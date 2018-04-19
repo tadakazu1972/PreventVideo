@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-			android:background="#99cc66">
+			android:background="#ffcccc">
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="12dp"
         android:gravity="center_horizontal"
         android:padding="8dp"
         android:textSize="16sp"
@@ -47,23 +47,23 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="コンセント"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="ストーブ"/>
     </LinearLayout>
@@ -95,23 +95,23 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="たばこ"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="天ぷら油"/>
     </LinearLayout>
@@ -143,23 +143,23 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="住宅用火災警報器"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="衣服に着火"/>
     </LinearLayout>
@@ -191,23 +191,23 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="酸素吸入中のたばこ"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:text="散らかった部屋"/>
     </LinearLayout>
@@ -215,7 +215,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="10dp">
 
             <ImageView
                 android:layout_weight="0.4"
