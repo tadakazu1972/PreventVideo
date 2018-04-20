@@ -18,7 +18,7 @@
         android:textStyle="bold"
         android:textAlignment="center"
 		android:textColor="#008080"
-        android:text="イラストをタップすると動画が見れます！"/>
+        android:text="イラストをタップすると動画が見れます"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
