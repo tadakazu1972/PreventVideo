@@ -6,13 +6,14 @@
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginBottom="12dp"
-        android:gravity="center_horizontal"
+        android:gravity="center_vertical"
         android:padding="8dp"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -26,7 +27,7 @@
         <ImageButton
             android:id="@+id/btnVideo1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@null"
             android:scaleType="centerInside"
@@ -39,11 +40,20 @@
             android:background="@null"
             android:scaleType="centerInside"
             android:src="@drawable/stove"/>
+        <ImageButton
+            android:id="@+id/btnVideo3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/stove"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -66,13 +76,24 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:text="ストーブ"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="ストーブ"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@+id/btnVideo3"
+            android:id="@+id/btnVideo4"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -80,7 +101,15 @@
             android:scaleType="centerInside"
             android:src="@drawable/tobacco"/>
         <ImageButton
-            android:id="@+id/btnVideo4"
+            android:id="@+id/btnVideo5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/tempura"/>
+        <ImageButton
+            android:id="@+id/btnVideo6"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -91,7 +120,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -114,13 +144,24 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:text="天ぷら油"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="天ぷら油"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@+id/btnVideo8"
+            android:id="@+id/btnVideo7"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -128,7 +169,15 @@
             android:scaleType="centerInside"
             android:src="@drawable/hotiki"/>
         <ImageButton
-            android:id="@+id/btnVideo5"
+            android:id="@+id/btnVideo8"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/cloth"/>
+        <ImageButton
+            android:id="@+id/btnVideo9"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -139,7 +188,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -162,32 +212,6 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:text="衣服に着火"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageButton
-            android:id="@+id/btnVideo7"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:background="@null"
-            android:scaleType="centerInside"
-            android:src="@drawable/oxy_tobacco"/>
-        <ImageButton
-            android:id="@+id/btnVideo6"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:background="@null"
-            android:scaleType="centerInside"
-            android:src="@drawable/room"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -198,18 +222,7 @@
             android:gravity="center_horizontal"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:text="酸素吸入中のたばこ"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:gravity="center_horizontal"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:text="散らかった部屋"/>
+            android:text="衣服に着火"/>
     </LinearLayout>
 	<LinearLayout
             android:orientation="horizontal"

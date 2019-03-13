@@ -59,6 +59,8 @@ public class VideoActivity extends AppCompatActivity {
             case 8:
                 videoPath = Uri.parse("android.resource://" + mActivity.getPackageName() + "/" + R.raw.hotiki);
                 break;
+            case 9:
+                videoPath = Uri.parse("android.resource://" + mActivity.getPackageName() + "/" + R.raw.hotiki);
             default:
                 videoPath = Uri.parse("android.resource://" + mActivity.getPackageName() + "/" + R.raw.outlet);
                 break;

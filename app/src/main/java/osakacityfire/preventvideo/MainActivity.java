@@ -105,5 +105,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //ボタン9
+        mView.findViewById(R.id.btnVideo9).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(mActivity, VideoActivity.class);
+                intent.putExtra("index", 9);
+                startActivity(intent);
+            }
+        });
     }
 }
